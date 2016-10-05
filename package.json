@@ -1,0 +1,44 @@
+{
+  "name": "landing-sumirea-ru",
+  "version": "1.0.0",
+  "description": "* MIT 2016",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm update --save && npm install",
+    "start-dev": "npm update --save && npm install && gulp",
+    "gulp": "gulp",
+    "build": "gulp build",
+    "deploy": "gulp build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mireadev/landing-sumirea-ru.git"
+  },
+  "author": "mireadev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mireadev/landing-sumirea-ru/issues"
+  },
+  "homepage": "https://github.com/mireadev/landing-sumirea-ru#readme",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gh-pages": "^0.11.0",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-concat": "*",
+    "gulp-cssmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-jade": "*",
+    "gulp-jsmin": "*",
+    "gulp-plumber": "*",
+    "gulp-stylus": "*",
+    "imagemin-pngquant": "*"
+  },
+  "dependencies": {
+    "flexboxgrid": "^6.3.1",
+    "flexboxgrid-helpers": "^1.0.2",
+    "fullpage.js": "^2.8.4",
+    "jquery": "^3.1.0",
+    "normalize.css": "^4.2.0"
+  }
+}
